@@ -12,7 +12,8 @@ public class Application {
 	
     public Application() {
         System.out.println ("Inside Application");
-		
+		System.out.println ("Anzahl Wörter:");
+		System.out.println (countWords("Anzahl Wörter:"));
     }
 
     // method main(): ALWAYS the APPLICATION entry point
